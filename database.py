@@ -39,7 +39,7 @@ def create_table():
 
 def add_student(name, age, email, country, id_number):
     with get_db_connection() as connection:
-        connection.execute('INSERT INTO students (name, age, email, country, id_number) VALUES (?, ?, ?, ?, ?)',
+        connection.execute('INSERT INTO students (name, age, email, country, id_number) VALsUES (?, ?, ?, ?, ?)',
                            (name, age, email, country, id_number))
         connection.commit()
 
