@@ -1,10 +1,10 @@
-# 📝 Registration App
+# Registration App
 
 A Python backend application for handling registration-related functionality through a structured API architecture.
 
 The project is organized into separate layers for database models, repositories, API routers, and schemas, with dedicated files for database configuration and application startup.
 
-## 📌 Overview
+## Overview
 
 **Registration-app** is a backend project demonstrating how a registration system can be structured using a layered architecture.
 
@@ -32,7 +32,7 @@ Database
 
 The repository contains dedicated directories for `models`, `repositories`, `routers`, and `schemas`, alongside `database.py` and `main.py`.
 
-## ✨ Project Structure
+## Project Structure
 
 ```text
 Registration-app/
@@ -60,7 +60,7 @@ Registration-app/
 
 The structure is directly reflected in the repository's current file tree.
 
-## 🏗️ Architecture
+## Architecture
 
 The project follows a separation-of-concerns approach.
 
@@ -141,7 +141,7 @@ If a dependency file such as `requirements.txt` is added to the project:
 pip install -r requirements.txt
 ```
 
-## ▶️ Running the Application
+## Running the Application
 
 The application's root entry point is `main.py`.
 
@@ -153,7 +153,7 @@ For example, if the application uses an ASGI framework:
 uvicorn main:app --reload
 ```
 
-## 🧪 Testing
+## Testing
 
 Testing can be added around the different application layers:
 
@@ -180,7 +180,7 @@ Potential test coverage includes:
 * API error responses
 * Repository CRUD operations
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 This project demonstrates practical experience with:
 
@@ -193,7 +193,7 @@ This project demonstrates practical experience with:
 * Separation of concerns
 * Structuring a backend into maintainable modules
 
-## 📈 Possible Improvements
+## Possible Improvements
 
 Potential future improvements include:
 
@@ -211,7 +211,7 @@ Potential future improvements include:
 * Docker support
 * CI/CD integration
 
-## 👨‍💻 Author
+## Author
 
 **Andy Laique**
 
@@ -220,12 +220,6 @@ https://github.com/andylaique
 
 Repository:
 https://github.com/andylaique/Registration-app
-
-## 📄 License
-
-No license is currently specified in the repository.
-
----
 
 ### Project Summary
 
